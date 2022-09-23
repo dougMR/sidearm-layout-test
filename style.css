@@ -18,6 +18,7 @@ div,
 section,
 article,
 nav,
+menu,
 header,
 main,
 footer {
@@ -226,6 +227,52 @@ nav .hamburger span {
     color: white;
     cursor: pointer;
 }
+/* DESKTOP MENU */
+#desktop-menu {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 100%;
+    z-index: 100;
+    /* height: 500px; */
+     background-color: white;
+}
+#desktop-menu h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+#desktop-menu .col-1,
+#desktop-menu .col-2 {
+    width: 40%;
+}
+#desktop-menu ul.list {
+    list-style-type: none;
+    margin-bottom: 7rem;
+}
+#desktop-menu ul.list li {
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #F5F5F5;
+}
+#desktop-menu ul.list li:hover {
+    background-color: #F5F5F5;
+}
+#desktop-menu ul.list li a {
+    color: #666666;
+    text-decoration: none;
+}
+#desktop-menu ul.list li a:hover {
+    text-decoration: underline;
+}
+
+nav #menu:hover ~ #desktop-menu,
+#desktop-menu:hover {
+    display: flex;
+}
+
 /* 
 *****************
 HEADER
@@ -529,7 +576,11 @@ footer section.section-2 p {
     margin-bottom: 0;
 }
 
+
 /* ^ Above is default Desktop */
+
+
+/* v Break Points */
 
 /* Big Desktop */
 @media screen and (min-width: 2020px) {
