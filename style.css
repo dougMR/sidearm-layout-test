@@ -251,7 +251,7 @@ nav .hamburger span {
 }
 #desktop-menu ul.list {
     list-style-type: none;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
 }
 #desktop-menu ul.list li {
     padding: 0.5rem 1rem;
@@ -264,7 +264,7 @@ nav .hamburger span {
     color: #666666;
     text-decoration: none;
 }
-#desktop-menu ul.list li a:hover {
+#desktop-menu ul.list li:hover a {
     text-decoration: underline;
 }
 
@@ -466,6 +466,7 @@ main section.section-3 article {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 0.5rem;
     padding: 3rem 2vw;
     width: 31%;
     background: url(https://s3-alpha-sig.figma.com/img/53c9/7097/c32a999e2aea31bbbefb072202def5d2?Expires=1664150400&Signature=AVYeufrQmVTn9GyXrkkgRhWFc2rCfLTtO6JQELAKgqIy6SIW2x8KP0KBsoA3Z9V-lw9go5orFwrpR8-zFlfjON7lzE4Ns-HWD3KDc0zDiO4gPQ6d0ZnvNRDGkC-CvXEGuz~V~XxURCtzasMiF2Lp-V2JbWIMFCG1T6n0vBnuhKBDPUmK0bT72Bbk-plsrBrJufiJZ65vYinmIluXVlhBhXvs~DhM6U8YYav6fVxtfpFvrpU1VDin1EOZI2~lUNq-tpHGnOeed4d7~SHvY8Qco6Q6Bqvi9DmqurOOjxsvtLyc-ZUlV~Tcu2CAUZxIRlWYXT3LtlEk-K2~oAGNH4jaNQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
