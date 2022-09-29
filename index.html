@@ -29,9 +29,47 @@
                     <li class="no-select">Ipsum</li>
                     <li class="no-select">Ipsum</li>
                 </ul>
-                <div class="hamburger">
-                    <span class="material-symbols-outlined"> menu </span>
-                </div>
+
+                <div id="menuToggle">
+                    <!-- From CodePen https://codepen.io/erikterwan/pen/EVzeRP -->
+                    <!--    Made by Erik Terwan    -->
+                <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                            <input type="checkbox" />
+            
+                            <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+            
+                            <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                            <div id="mobile-menu">
+                                <h6>Ipsum Lorem</h6>
+                                <ul >
+                                    <a href="#"><li>Link</li></a>
+                                    <a href="#"><li>Link</li></a>
+                                    <a href="#"><li>Link</li></a>
+                                    <a href="#"><li>Link</li></a>
+                                </ul>
+                                <h6>Ipsum Lorem</h6>
+                                <ul >
+                                    <a href="#"><li>Link</li></a>
+                                    <a href="#"><li>Link</li></a>
+                                    <a href="#"><li>Link</li></a>
+                                    <a href="#"><li>Link</li></a>
+                                </ul>
+                            </div>                            
+                        </div>
                 <menu id="desktop-menu">
                     <div class="col-1">
                         <h3>Ipsum Lorem</h3>
@@ -110,7 +148,7 @@
                     <div class="bg-white col">
                         <img
                             class="w-1"
-                            src="https://s3-alpha-sig.figma.com/img/818f/adde/6a112a223d09b28865f26f6f6d06a626?Expires=1664150400&Signature=EbfvhhpxoVP5K3MOsAdNMDaJgLf2nvyR5NMqn6-ZQCJfv5eNCFJDa-OZW4gsM3xyAX6QoRcIECi5LRZeoPBJc69nIbu2cym3Py2SqUfTKoITNyy3JBh03YnPHiKq7Egm7V-09ivL1K9MMFiWOrBUmQiAHXy2iVtZ9LX5ouJvW0h~dyLNo2jMFdocUhU6cVaE5KbQ5XRSqj0oqAtCPRKJZAIGdDsnPCyqF6gO4xK50iEGx2IkeGhkhNmW4XH7rAh~0ILvAzJF5hyaNzSr2IkCWT41locQJIDFMcWCb3FeH5LEEF6y9uM9baMofRWtOqD0Hs~lcCBaMkr9OOuiemMvEg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            src="https://images.unsplash.com/photo-1439122590297-dde626bb7cf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NDQ5MTEwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
                             alt="coastal mountains"
                         />
                         <div class="buttons row center">
