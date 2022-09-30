@@ -377,7 +377,8 @@ main .r1-c2-r2 {
 }
 main .r1-c2-r2 {
     background: url(https://images.unsplash.com/photo-1439122590297-dde626bb7cf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NDQ5MTEwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
-    background-position: center;
+    background-position: center 70%;
+    background-size: cover;
 }
 main .r1-c2-r3 {
     justify-content: space-around;
@@ -436,7 +437,7 @@ main .section-2 .card {
 main .card .image {
     width: calc(100% - 2rem);
     padding: 63% 0 0;
-    background: url(https://s3-alpha-sig.figma.com/img/818f/adde/6a112a223d09b28865f26f6f6d06a626?Expires=1664150400&Signature=EbfvhhpxoVP5K3MOsAdNMDaJgLf2nvyR5NMqn6-ZQCJfv5eNCFJDa-OZW4gsM3xyAX6QoRcIECi5LRZeoPBJc69nIbu2cym3Py2SqUfTKoITNyy3JBh03YnPHiKq7Egm7V-09ivL1K9MMFiWOrBUmQiAHXy2iVtZ9LX5ouJvW0h~dyLNo2jMFdocUhU6cVaE5KbQ5XRSqj0oqAtCPRKJZAIGdDsnPCyqF6gO4xK50iEGx2IkeGhkhNmW4XH7rAh~0ILvAzJF5hyaNzSr2IkCWT41locQJIDFMcWCb3FeH5LEEF6y9uM9baMofRWtOqD0Hs~lcCBaMkr9OOuiemMvEg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background: url(https://images.unsplash.com/photo-1439122590297-dde626bb7cf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NDQ5MTEwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
     background-position: center;
     background-size: cover;
 }
@@ -469,7 +470,7 @@ main section.section-3 article {
     gap: 0.5rem;
     padding: 3rem 2vw;
     width: 31%;
-    background: url(https://s3-alpha-sig.figma.com/img/53c9/7097/c32a999e2aea31bbbefb072202def5d2?Expires=1664150400&Signature=AVYeufrQmVTn9GyXrkkgRhWFc2rCfLTtO6JQELAKgqIy6SIW2x8KP0KBsoA3Z9V-lw9go5orFwrpR8-zFlfjON7lzE4Ns-HWD3KDc0zDiO4gPQ6d0ZnvNRDGkC-CvXEGuz~V~XxURCtzasMiF2Lp-V2JbWIMFCG1T6n0vBnuhKBDPUmK0bT72Bbk-plsrBrJufiJZ65vYinmIluXVlhBhXvs~DhM6U8YYav6fVxtfpFvrpU1VDin1EOZI2~lUNq-tpHGnOeed4d7~SHvY8Qco6Q6Bqvi9DmqurOOjxsvtLyc-ZUlV~Tcu2CAUZxIRlWYXT3LtlEk-K2~oAGNH4jaNQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background: url(https://images.unsplash.com/photo-1439122590297-dde626bb7cf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NDQ5MTEwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
     background-position: center;
     background-size: cover;
     background-color: #444;
@@ -589,7 +590,7 @@ footer section.section-2 p {
         width: 100%;
         /* padding: 0 calc( ( 100% - 1400px ) /2 ); */
         /* padding: 0 calc( 50% - 700px ); */
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     :root {
         --margin: calc(50vw - 700px);
@@ -748,7 +749,7 @@ footer section.section-2 p {
     }
 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     #content header {
         padding: var(--margin);
     }
