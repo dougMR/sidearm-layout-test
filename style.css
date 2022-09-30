@@ -133,7 +133,9 @@ a {
 MISC ELEMENTS
 *****************
 */
-
+button {
+    cursor: pointer;
+}
 .button-white,
 .button-white-round,
 .button-blue,
@@ -145,6 +147,7 @@ MISC ELEMENTS
     font-weight: 700;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
+    cursor: pointer;
     /* white-space: nowrap; */
     transition: background-color 0.5s;
 }
@@ -305,7 +308,7 @@ header .row .buttons {
     padding: 2rem 0 2rem 2rem;
     text-align: center;
 }
-header .row .buttons button {
+.row .buttons button {
     display: inline-flex;
     align-items: center;
     text-align: center;
@@ -317,8 +320,9 @@ header .row .buttons button {
     border: 1px solid var(--navy);
     padding: 22.5px 24px;
     margin: 0.5rem;
+    transition: background-color 0.5s;
 }
-header .row .buttons button:hover {
+.row .buttons button:hover {
     color: white;
     background-color: var(--navy);
 }
@@ -433,7 +437,16 @@ main .section-2 .card {
     flex-direction: column;
     align-items: center;
     background-color: var(--page-color);
+    transition: background-color 0.5s;
 }
+main .section-2 .card:hover {
+    background-color: #F1F1F1;
+}
+main .section-2 .card:hover .button-white {
+    background-color: var(--navy);
+    color: white;
+}
+
 main .card .image {
     width: calc(100% - 2rem);
     padding: 63% 0 0;
