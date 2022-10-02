@@ -196,6 +196,9 @@ nav img.logo {
     max-height: 72px;
     padding: 0.25rem;
 }
+#mobile-menu {
+    display: none;
+}
 nav #menu {
     margin: 0;
 }
@@ -591,6 +594,16 @@ footer section.section-2 p {
     margin-bottom: 0;
 }
 
+footer section.section-1 .list span {
+    cursor: pointer;
+}
+
+footer section.section-1 .col-1 .list span:hover,
+footer section.section-1 .col-2 .list span:hover,
+footer section.section-1 .col-3 .list p:hover span:not(.material-symbols-outlined) {
+    text-decoration: underline;
+}
+
 
 /* ^ Above is default Desktop */
 
@@ -674,6 +687,9 @@ footer section.section-2 p {
     }
     #content nav #menu {
         display: none;
+    }
+    #mobile-menu {
+        display: block;
     }
     nav .hamburger {
         display: flex;
@@ -823,11 +839,10 @@ footer section.section-2 p {
 ------------------------------------
 Separated it down here to make it easer to digest
 */
+/* Based on  https://codepen.io/erikterwan/pen/EVzeRP  by Erik Terwan  */
 #menuToggle {
     display: block;
     position: relative;
-    /* top: 50px;
-    left: 50px; */
 
     z-index: 1;
 
@@ -927,7 +942,8 @@ Separated it down here to make it easer to digest
 #mobile-menu {
     box-sizing: border-box;
     position: absolute;
-    width: 100vw;
+    width: calc(100vw - 16px);
+    /* ^ this assumes the scrollbar is present (hacky) */
     margin: 0 0 0 0;
 
     background: #ffffff;
@@ -939,6 +955,12 @@ Separated it down here to make it easer to digest
     transform: translate(calc( 63px - 200%), 45px);
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+#mobile-menu h6,
+#mobile-menu ul,
+#mobile-menu li,
+#mobile-menu a {
+    box-sizing: border-box;
 }
 #mobile-menu h6 {
     font-size: 14px;
