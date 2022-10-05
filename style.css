@@ -942,8 +942,7 @@ Separated it down here to make it easer to digest
 #mobile-menu {
     box-sizing: border-box;
     position: absolute;
-    width: calc(100vw - 16px);
-    /* ^ this assumes the scrollbar is present (hacky) */
+    width: 100vw;
     margin: 0 0 0 0;
 
     background: #ffffff;
