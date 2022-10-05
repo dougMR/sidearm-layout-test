@@ -526,12 +526,7 @@ footer section.section-1 > .col-1,
 footer section.section-1 > .col-2 {
     width: 40%;
 }
-footer section.section-1 > .col-1,
-footer section.section-1 > .col-2,
-footer section.section-1 > .col-3 {
-    /* margin: 0 0 0 2rem;
-    border: 1px solid red; */
-}
+
 footer section.section-1 h3 {
     margin: 0 0 2rem;
 }
@@ -741,12 +736,6 @@ footer section.section-1 .col-3 .list p:hover span:not(.material-symbols-outline
     footer .section-1 {
         flex-wrap: wrap;
         justify-content: space-around;
-    }
-    footer .section-1,
-    footer .section-2 {
-        /* display: none; */
-        /* padding: 0; */
-        /* margin: 0; */
     }
 
     footer section.section-1 .col-1,
